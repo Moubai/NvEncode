@@ -1,8 +1,8 @@
 #encoder hevc nvidia
 #complete the folder where is NvEnc
-cd "E:\- P R O G Z -\NVEncC_4.29_x64"
+Set-Location "E:\- P R O G Z -\NVEncC_4.29_x64"
 $InFolder = Read-Host "what is the folder to Encode ?"
-$OutFoler = Read-Host "what is Destination folder ?"
+$OutFolder = Read-Host "what is Destination folder ?"
 $Files = Get-ChildItem $InFolder
 
 ForEach($FileToEncode in $Files){
